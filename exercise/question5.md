@@ -1,16 +1,19 @@
 # Chapter 5
 
-40. いくつかの回帰手法をsklearnを用いて，実験せよ．
-    - 実験データは，$$f(x) = \sin(x)$$ にノイズを加えたものとする．
+40. いくつかの回帰手法をscikit-learnを用いて，実験せよ．
+    - 実験データは，![](https://latex.codecogs.com/png.latex?f(x)&space;=&space;\sin(x))にノイズを加えたものとする．
     - 手法のパラメータを変えながら，実験する．
 
-Kaggleにある[Titanic データセット](https://www.kaggle.com/c/titanic)を用いて，実験せよ．
+## Titanic
+
+Kaggleにある[Titanic データセット](https://www.kaggle.com/c/titanic)を用いて，以下の実験をせよ．
 
 41. この問題はどのような問題になるかを検討する．
-42. 解く手法をいくつか列挙する．
+42. 推定手法をいくつか列挙する．
 43. 各手法に対して，どの程度の性能が出るかを試す． 
 44. もっとも性能が高い手法を改良する．
 
+## House Prices
 
 Kaggleにある[House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)を用いて，以下の実験をせよ．
 
@@ -22,6 +25,5 @@ Kaggleにある[House Prices: Advanced Regression Techniques](https://www.kaggle
     - ただし，テストデータを使って超パラメータの調整をしてはならない．
       - 学習データの一部を超パラメータの調整のために利用すること．
 
-49. [Kaggle]または[Data Analysis]で開催中のコンテストに挑戦する．
-
-
+49. [Kaggle](https://www.kaggle.com/)または[DeepAnalytics](https://deepanalytics.jp/compelist?tc=top_main)で開催中のコンテストに挑戦する．
+    - 実際のデータを利用したデータ分析のコンテストサイト
