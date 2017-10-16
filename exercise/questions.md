@@ -220,13 +220,13 @@ Pythonに慣れるために基礎的な演算をやってみましょう．
 32. 平均0，標準偏差2の正規分布から生成したサンプルのヒストグラムを表示せよ．
 
 ### pandasモジュールについて
-Yahoo Financeから[データ](https://finance.yahoo.com/quote/GOOG/history?p=GOOG)を取得する．  
+Yahoo Financeから[データ](https://finance.yahoo.com/quote/GOOG/history?p=GOOG)を1年分取得する．
 
 33. csvにある列名をリストで標準出力せよ．
 34. "Adj Close"の列をプロットせよ．
     - ただし，時系列順に並び替えて表示する．
 35. 最近1ヶ月にしぼって，データフレームを作成せよ．
-36. `sample.csv`について，欠損値を補完して表示せよ．
+36. [`sample.csv`](../text/data/sample.csv)について，欠損値を補完して表示せよ．
     - 補完の方法は，いくつか存在する．
     - それらを調べて確認してみよう．
 
